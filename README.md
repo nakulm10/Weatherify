@@ -1,6 +1,6 @@
 ![image](https://github.com/nakulm10/Weatherify/assets/107452581/de7b0cf5-7f0a-46f4-a3a3-3c22062215c9)
 
-# WEATHERIFY
+
 
 ## Introduction
 #### Vision: 
