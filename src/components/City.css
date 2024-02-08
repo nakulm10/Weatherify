@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@400;500;600&family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+.weather-data {
+    color:#d7bfa2;
+    background-color: rgba(220, 208, 198, 0.5);
+    /* height: 75vh; */
+    width: 80%;
+    border-radius: 5px;
+    margin: 50px auto;
+    /* Centered horizontally */
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.cityname h2{
+    color:#5a4e41;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.weather-data h6 {
+    margin-top: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow items to wrap */
+    width: 100%;
+}
+
+.details h3, .details h2{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.city {
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    /* Make sure it takes up full width */
+    margin-bottom: 20px;
+    /* Add some space between city and details */
+}
+
+.col {
+    flex: 1;
+    /* Let each column take equal space */
+    min-width: 100px;
+    /* Set a minimum width for each column */
+    padding: 10px 15px;
+    /* Adjust padding for smaller screens */
+    background-color:#5b5e66;
+    margin: 5px;
+    /* Add some space between columns */
+    text-align: center;
+    border-radius: 5px;
+    /* Center content */
+}
+
+.col i {
+    font-size: 30px;
+    /* Reduce icon size */
+    padding: 10px 0;
+    /* Adjust padding */
+}
+
+@media screen and (max-width: 768px) {
+    .weather-data {
+        width: 90%;
+        /* Adjust width for smaller screens */
+    }
+
+    .details {
+        justify-content: center;
+        /* Center columns */
+    }
+
+    .col {
+        flex: 1 1 45%;
+        /* Allow columns to take up to 45% width */
+        min-width: 90px;
+        /* Adjust minimum width */
+    }
+
+    .col i {
+        font-size: 25px;
+        /* Reduce icon size further */
+    }
+}
+
+
+.icon{
+    font-size:50px;
+    color:#d5c7b9;
+}

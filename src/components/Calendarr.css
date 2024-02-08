@@ -1,0 +1,125 @@
+.calendar-faq-container{
+    display:flex;
+    margin:-30px 100px -30px 25px;
+}
+
+
+.calendar-container {
+    width: 500px;
+    padding: 45px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(94, 98, 110, 0.8);
+    color: #a6a9af;
+    border-radius: 5px;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 10px; */
+    padding-bottom:5px;
+}
+.calendar-header h2{
+    font-size:1.5rem;
+}
+
+.calendar-header button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+}
+
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.calendar-day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    color: #f4f1ed;
+/* background: rgb(94, 98, 110, 0.8); */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.calendar-day.today {
+   background-color: #a6a9af;
+    /* Add a border to highlight today's date */
+}
+
+
+.calendar-day:hover {
+    background-color: #687384;
+}
+
+.calendar-day.selected {
+    background-color: #9ca4b2;
+    color: white;
+}
+
+/* Disable clicking on days before the current month */
+.calendar-day[style*="none"] {
+    cursor: not-allowed;
+    background-color: #ccc;
+}
+
+.event-input {
+    margin-top: 10px;
+}
+
+.event {
+    background-color: #4caf50;
+    color: white;
+    padding: 3px;
+    margin-top: 2px;
+}
+
+/* Additional styling for the FAQ section */
+/* Calendarr.css */
+
+/* Additional styling for the FAQ section */
+.left-panel {
+ width:1025px;
+ font-size: small;
+    padding: 80px;
+    
+    overflow: hidden;
+    /* Prevent content overflow */
+}
+@media (max-width: 600px) {
+    .calendar-faq-container {
+        margin: 20px;
+        /* Adjust margin for smaller screens */
+    }
+
+    .calendar-container {
+        max-width: none;
+        /* Remove max-width for full width on smaller screens */
+        margin-bottom: 20px;
+        /* Add some space between calendar and FAQ */
+    }
+
+    .left-panel {
+        padding: 20px;
+        /* Adjust padding for smaller screens */
+        font-size: small;
+        /* Adjust font size for smaller screens */
+    }
+
+    /* Adjust font size for calendar header on smaller screens */
+    .calendar-header h2 {
+        font-size: 1.2rem;
+    }
+
+    /* Adjust font size for calendar days on smaller screens */
+    .calendar-day {
+        font-size: 0.8rem;
+    }
+}

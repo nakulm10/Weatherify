@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Libre+Baskerville&family=Libre+Franklin&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    /* background-color:#dbd8d8; */
+}
+
+.Main{
+    width: 100%;
+}
+
+.common{
+    width: 75%;
+    margin: 50px 180px;
+    /* border: 0px solid black; */
+background: linear-gradient(to bottom right, #4a4f57, #bcb5ad);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px -2px gray;
+}
+
+.common h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    margin: 20px 15px 10px 15px;
+    /* background-color: #fff; */
+    color: whitesmoke;
+}
+
+.common p{
+    justify-content: justify;
+    align-items: center;
+    text-align: justify;
+    /* text-justify: inter-word; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    /* background-color: #fff; */
+    margin: 10px 15px 20px 15px;
+    color: #ddcfbf;
+}
+
+

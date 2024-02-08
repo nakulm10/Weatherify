@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Libre+Baskerville&family=Libre+Franklin&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  display: flex;
+  gap: 35px;
+  padding: 30px;
+  height: 40vh;
+  background-color: #E3F2FD;
+  color:#565d62
+}
+
+.weather-input {
+  width: 500px;
+}
+
+.weather-input input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 1.07rem;
+  padding: 0 17px;
+  margin: 10px 0 20px 0;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.weather-input input:focus {
+  padding: 0 16px;
+  border: 2px solid rgb(24, 24, 24);
+}
+
+.weather-input .separator {
+  height: 1px;
+  width: 100%;
+  margin: 25px 0;
+  background: #BBBBBB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-input .separator::before{
+  content: "or";
+  color: #6C757D;
+  font-size: 1.18rem;
+  padding: 0 15px;
+  margin-top: -4px;
+  background: #E3F2FD;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+.weather-input button {
+  width: 100%;
+  padding: 10px 0;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #fff;
+  background: #5372F0;
+  transition: 0.2s ease;
+}
+
+.weather-input .search-btn:hover {
+  background: #2c52ed;
+}
+
+.weather-input .location-btn {
+  background: #6C757D;
+}
+
+.weather-input .location-btn:hover {
+  background: #5c636a;
+}
+
+.weather-data {
+    color: #fff;
+    background: rgb(165, 165, 165);
+    height: 32vh;
+    width: 100%;
+    border-radius: 5px;
+    padding: 20px 70px 20px 20px;
+    justify-content: space-between;
+}
+
+.current-weather h2 {
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.weather-data h6 {
+    margin-top: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.details{
+    display: flex;
+}
+
+.city{
+    font-size: 26px;
+    padding: 10px;
+}
+.col{
+    width: 30%;
+    margin: 0px -20px 0px 34px;
+    /* background-color: red; */
+    padding: 0px 50px;
+}
+
+.Temp{
+    width: 60px;
+    margin: 0px 30px;
+}
+
+.hum{
+    width: 50px;
+    margin: 10px 32px;
+}
+
+.Wind{
+    width: 50px;
+    margin: 7px 30px;
+}
+
+.Pre{
+    width: 25%;
+}
+
+.col h2, h3{
+    text-align: center;
+} 
+

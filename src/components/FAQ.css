@@ -1,0 +1,41 @@
+/* FAQ.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@400;500;600&family=Poppins:wght@100;200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Libre+Baskerville&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+.h{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(211, 193, 193);
+}
+
+.faq-container {
+    padding: 45px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: #ccc;
+    height: 50vh;
+    background: rgb(94, 98, 110, 0.8);
+    overflow: scroll;
+/* Set text color to gray with !important */
+}
+
+.faq-question {
+    margin-bottom: 20px;
+    color: bisque;
+}
+
+.faq-question strong {
+    display: block;
+    /* font-size:medium; */
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #53c058;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.faq-question p {
+    color: #ccc !important;
+    text-align: justify;
+    /* Set text color to gray with !important */
+}

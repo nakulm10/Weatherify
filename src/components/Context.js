@@ -1,0 +1,1 @@
+global.ok=0;

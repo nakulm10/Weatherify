@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@400;500;600&family=Poppins:wght@100;200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Libre+Baskerville&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+
+.slider-container {
+    max-width: 1300px;
+    margin: 40px 100px 0px 100px;
+    overflow: hidden;
+}
+
+.slider-container h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(57, 51, 51);
+}
+
+.slider {
+    display: flex;
+    height:250px;
+    width:100%;
+    /* background-color: red; */
+}
+
+.slider-entry {
+    border-radius: 5px;
+    flex: 1 0 0;
+    background-color:rgb(94, 98, 110, 0.8);
+    /* Adjust the width of each block for 4 items */
+    /* box-sizing: border-box; */
+    /* border: 5px solid black; */
+    padding: 20px;
+    animation: slideIn 1s forwards, slideOut 1s 11s forwards;
+    margin: 5px 5px 5px 0px;
+    color: #ccc;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Montserrat', sans-serif;
+    /* Entry animation and exit animation */
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+.slider-entry:not(:first-child) {
+    margin-left: -1px;
+}
+
+/* Additional styles for better visibility */
+.slider-entry:hover {
+    background-color: #f5f5f5;
+    color : black
+}
+
+/* Add more styles as needed */

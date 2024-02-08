@@ -1,0 +1,182 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 1vh;
+    margin: 0;
+
+    /* Reset default margin */
+}
+
+/* 
+.Footer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Set the minimum height of the container to cover the entire viewport */
+
+
+
+.FooterNav {
+    display: flex;
+    width: 100%;
+    background-color: #35373b;
+    color: #d6c7b9;
+    
+    padding: 10px 100px;
+    min-height: 2vh;
+}
+
+.FooterNav1 {
+    height: 50px;
+    padding: 20px 30px;
+    margin: 10px 30px;
+    width: 20%;
+}
+
+.Logo1 {
+    width: 200px;
+    border-radius: 5px;
+    z-index: 4;
+
+}
+
+h3 {
+    color: #ddcfbf;
+    text-align: center;
+}
+
+
+
+.FooterNav2 {
+    margin: 10px 30px;
+    width: 20%;
+    text-align: justify;
+    padding: 10px;
+    color: #d6c7b9;
+}
+
+.FooterNav2 p {
+    color: #d6c7b9;
+}
+
+.Icons {
+    display: flex;
+    padding: 0.2rem;
+    color: aliceblue
+}
+
+.FooterNav3 {
+    margin: 10px 30px;
+    width: 20%;
+    text-align: justify;
+    color: #d6c7b9;
+    padding: 15px;
+}
+
+.FooterNav3 p {
+    color: #d6c7b9;
+    padding: 0px 0px 0px 10px;
+}
+
+.FooterNav2 p {
+    color: white;
+    margin-top: 5px;
+}
+
+.FooterNav4 {
+    text-align: center;
+    margin: 10px 30px;
+    width: 20%;
+    padding-top: 10px;
+}
+
+.FooterNav4 svg {
+    text-decoration: none;
+    border-radius: 10%;
+    padding: -10px 5px 5px 5px;
+    margin: -10px 10px 10px 10px;
+    font-size: 30px;
+    color: white;
+}
+
+
+.FooterBottom p {
+    font-size: 18px;
+    color: #d6c7b9;
+}
+
+.FooterBottom {
+    background-color: #35373b;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    width: 100%;
+    color: #d6c7b9;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .Logo1 {
+        width: 200px;
+        border-radius: 5px;
+        margin-left: -100px;
+        /* z-index: 4; */
+    }
+    .FooterNav2 p {
+       font-size: 12px;
+       /* margin:-25px; */
+       margin: -25px -50px -50px -120px;
+    }
+    .FooterNav3 p {
+        font-size: 12px;
+        color: #d6c7b9;
+        margin-left:-30px;
+
+    }
+    /* .Icons{
+        height:100px;
+        width:100px;
+    } .Icons*/
+
+    .Icons{
+        width:0;
+    }
+    .Logo1 {
+        width: 100px;
+        border-radius: 5px;
+    
+    
+    }
+    .FooterNav2 h3{
+        font-size:15px;
+        margin-left:-75px;
+    
+    }
+    .FooterNav3 h3{
+        font-size:15px;
+        margin-left:-40px;
+        margin-top:-5px;
+        margin-right:-70px;
+       
+    }
+    
+.FooterNav4 {
+    text-align: center;
+    margin-right:-60px;
+    width: 20%;
+    padding-top: 10px;
+}
+.FooterNav4 svg {
+    text-decoration: none;
+    border-radius: 10%;
+    padding: -10px 5px 5px 5px;
+    margin: -10px 10px 10px 10px;
+    height:25px;
+    color: white;
+}
+
+.FooterNav4 h3 {
+   font-size:15px;
+}
+}

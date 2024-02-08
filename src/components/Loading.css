@@ -1,0 +1,30 @@
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(54, 52, 52, 0.5);
+    z-index: 9999;
+}
+.app-icon {
+    width: 100px;
+    /* Adjust the width and height as needed */
+    height: 75px;
+    margin-bottom: 5px;
+    /* Add some margin below the icon */
+}
+.loading-icon {
+    margin-bottom: 20px;
+}
+
+.loading-caption {
+    font-size: 25px;
+    color: #fff;
+
+}
