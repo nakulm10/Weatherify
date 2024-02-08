@@ -47,7 +47,7 @@ ARIMA, which stands for AutoRegressive Integrated Moving Average, is a powerful 
 ### Homepage
 ![image](https://github.com/nakulm10/Weatherify/assets/107452581/d0f0d31d-ada0-4b6e-b453-d8b8118fd04c)
 ### Forecast Page
-Divided into 2 sections that are:
+Divided into 2 sections that are:\
 a) Know the weather conditions of any location in the world
 ![image](https://github.com/nakulm10/Weatherify/assets/107452581/fd46abcb-0f81-4404-bf2b-82862855b131)
 
