@@ -18,3 +18,30 @@ In addition to providing accurate weather forecasts, Weatherify can also help bu
  
 Overall, Weatherify is a powerful tool that can help individuals and businesses make informed decisions based on accurate weather forecasts.
 
+# Tools and Technologies
+Weatherify is a project that uses a variety of web development technologies such as JavaScript, React, and Django. HTML is used to create the structure of the web pages, while CSS is used to define the layout and visual elements:
+1. JavaScript is used to create interactive elements on the web pages, while React is used to build reusable UI components.
+2. Django is used as a backend framework to handle server-side logic and database management.
+3. Latex is used for documentation purpose.
+
+# Implementation
+### API
+In the dynamic landscape of weather data APIs, OpenWeather and World Weather Online stand out as robust solutions, each bringing unique strengths to the table. Whether you’re a developer crafting a weather application or a business optimizing operations, the choice between these two platforms depends on your specific needs.
+### World Weather Online
+World Weather Online is your gateway to precise and reliable global weather insights. Renowned for its user-friendly interface and accurate forecasts, it has become a staple for those seeking comprehensive weather data.
+### Open Weather
+OpenWeather emerges as a powerhouse, providing expansive global coverage and real-time weather updates. Catering to developers and businesses, it offers a versatile range of endpoints, delivering accurate information for diverse locations around the world.
+### ARIMA Model
+ARIMA, which stands for AutoRegressive Integrated Moving Average, is a powerful and widely used time series forecasting model. It’s designed to capture and predict trends and patterns within sequential data points. Here’s a breakdown of its components:
+1.	AutoRegressive (AR): • The AR component signifies that the model uses past values of the variable being forecasted to make predictions.
+• It explores the correlation between an observation and its previous observations at different time lags.
+2.	Integrated (I):
+•	The I component represents the differencing of raw observations to make the time series stationary.
+•	Stationarity is crucial for ARIMA, as it assumes that the time series data is not influenced by trends or seasonality.
+3.	Moving Average (MA): • The MA component incorporates the dependency between an observation and a residual error from a moving average model applied to lagged observations.
+•	It helps capture the short-term fluctuations in the data.
+
+
+
+
+
