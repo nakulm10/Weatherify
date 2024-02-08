@@ -21,10 +21,10 @@ Overall, Weatherify is a powerful tool that can help individuals and businesses 
 # Tools and Technologies
 Weatherify is a project that uses a variety of web development technologies such as JavaScript, React, and Django. HTML is used to create the structure of the web pages, while CSS is used to define the layout and visual elements:
 1. **JavaScript** is used to create interactive elements on the web pages, while **React** is used to build reusable UI components having numerous libraries.
-2. **HTML**,**CSS** is majorly incorporated with React to style and make the page dynamic.\
-2.**Django** is used as a backend framework to handle server-side logic and database management.
-3. **SQLite** is used for effective database management.
-4. **Latex** is used for documentation purpose.
+2. **HTML**,**CSS** is majorly incorporated with React to style and make the page dynamic.
+3. **Django** is used as a backend framework to handle server-side logic and database management.
+4. **SQLite** is used for effective database management.
+5. **Latex** is used for documentation purpose.
 
 # Implementation
 ### API
